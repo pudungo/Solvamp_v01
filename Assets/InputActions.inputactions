@@ -52,6 +52,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "b31ad221-2ab3-4668-93c5-b5b670541e83",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Quickturn",
                     "type": "Button",
                     "id": "629fa1c9-a766-4d2e-8a27-3d2013eabe5e",
@@ -169,6 +178,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Quickturn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8451d6fb-8e32-44d6-a981-5c61d97a2e2b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
