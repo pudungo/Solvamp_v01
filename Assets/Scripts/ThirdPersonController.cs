@@ -115,6 +115,7 @@ public class ThirdPersonController : MonoBehaviour
 
     private void Awake()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
         body = GetComponent<Rigidbody>();
