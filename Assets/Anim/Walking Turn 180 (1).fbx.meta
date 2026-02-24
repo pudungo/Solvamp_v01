@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 627f6bc52a6b252499f47a54bceed8a5
+guid: 336c8c6349c27424d899346daab7e5be
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -29,7 +29,43 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: OnQuickTurnEnd()
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 023741f652cadcd4c947b82ae7f353fa, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {fileID: 31900000, guid: d043e9de0028f2b42a0e24011bf27807, type: 2}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -612,7 +648,7 @@ ModelImporter:
       scale: {x: 100, y: 100, z: 100}
     - name: mixamorig:Hips
       parentName: kaj_02(Clone)
-      position: {x: -0.000091552734, y: 69.9, z: 0.23592949}
+      position: {x: -0.000091552734, y: 69.12, z: 0.23592949}
       rotation: {x: 0.00000026630406, y: -0.00000064843476, z: 0.000018607914, w: 1}
       scale: {x: 100, y: 100, z: 100}
     - name: mixamorig:LeftUpLeg
@@ -723,12 +759,12 @@ ModelImporter:
     - name: mixamorig:LeftHandMiddle1
       parentName: mixamorig:LeftHand
       position: {x: 0.006619825, y: 0.054100495, z: -0.0018675232}
-      rotation: {x: -0.016968977, y: 0.0037386762, z: -0.07388086, w: 0.9971157}
+      rotation: {x: -0.016968982, y: 0.0037386762, z: -0.07388088, w: 0.9971157}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHandMiddle2
       parentName: mixamorig:LeftHandMiddle1
       position: {x: -0.00045244215, y: 0.017341156, z: 0}
-      rotation: {x: 0.0000043738387, y: -0.0007049002, z: 0.020467468, w: 0.99979025}
+      rotation: {x: 0.00000437384, y: -0.0007049002, z: 0.020467473, w: 0.99979025}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHandMiddle3
       parentName: mixamorig:LeftHandMiddle2
@@ -903,7 +939,7 @@ ModelImporter:
     - name: mixamorig:RightHandRing2
       parentName: mixamorig:RightHandRing1
       position: {x: 0.00033185005, y: 0.01890747, z: 0}
-      rotation: {x: 0.0000035918965, y: 0.0006678614, z: -0.0128216455, w: 0.99991757}
+      rotation: {x: 0.0000035918972, y: 0.0006678614, z: -0.012821648, w: 0.99991757}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:RightHandRing3
       parentName: mixamorig:RightHandRing2
@@ -1057,11 +1093,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 627f6bc52a6b252499f47a54bceed8a5, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
